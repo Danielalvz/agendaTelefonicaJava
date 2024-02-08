@@ -2,12 +2,6 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Contacto a = new Contacto("Armando Casas", "3108255252");
-        Contacto b = new Contacto("Armando Tejares", "3108255253");
-        Agenda.agregarContacto(a);
-        Agenda.agregarContacto(b);
-        Agenda.listarContactos();
-
         int contador = 1;
         int opcion = 0;
 
